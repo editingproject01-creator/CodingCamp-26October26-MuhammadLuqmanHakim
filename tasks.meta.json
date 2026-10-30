@@ -1,0 +1,116 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create directory structure, index.html, app.js skeleton, and test config": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337666078
+      },
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337676403
+      },
+      {
+        "executionId": "5a40909f-0497-4ae1-b147-cdeb67f5b8e1",
+        "chatSessionId": "sess_18b10b36-62c7-414c-b8fe-655415b4657b",
+        "timestamp": 1793337844712
+      },
+      {
+        "executionId": "713db0dd-71ed-4a04-bcbd-c1de4162d904",
+        "chatSessionId": "sess_d75bbcf4-b074-497d-8a83-d7d1720bbd94",
+        "timestamp": 1793338929682
+      }
+    ],
+    "2.1 Implement validation helpers, validateTransaction, and computeBalance": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337666928
+      },
+      {
+        "executionId": "03ed2a26-05c3-4764-b293-27f08bb8caa4",
+        "chatSessionId": "sess_464f570d-fe7a-4676-8bd1-3e7d019ea896",
+        "timestamp": 1793339320635
+      }
+    ],
+    "3.1 Implement aggregateByCategory, groupByMonth, and summarizeMonth": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667089
+      }
+    ],
+    "4.1 Implement validateCategoryName, category selector builder, serialize/deserialize, state mutators, and theme toggle": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667170
+      }
+    ],
+    "5. Checkpoint - Ensure all pure logic tests pass": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667236
+      }
+    ],
+    "6.1 Implement Storage_Manager and Theme_Manager": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667301
+      }
+    ],
+    "7.1 Implement balance display, transaction list, and chart renderers": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667411
+      }
+    ],
+    "7.3 Implement summary view, input form, category manager, and message renderers": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667504
+      }
+    ],
+    "8. Checkpoint - Ensure all view tests pass": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667571
+      }
+    ],
+    "9.1 Implement AppController with init, event wiring, and all handlers": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667633
+      }
+    ],
+    "10.1 Implement CSS with theme variables, visual hierarchy, and contrast": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667687
+      }
+    ],
+    "11. Checkpoint - Ensure all tests pass and UI renders correctly": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667771
+      }
+    ],
+    "13. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "487fb7fd-7038-4b31-8020-99ba8743aa1e",
+        "chatSessionId": "sess_326f0f1f-df00-40b6-943e-b190e46c4d63",
+        "timestamp": 1793337667836
+      }
+    ]
+  }
+}
