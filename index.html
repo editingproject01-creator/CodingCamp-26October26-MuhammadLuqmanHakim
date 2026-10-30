@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense & Budget Visualizer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="judul-h1">Expense & Budget Visualizer</h1>
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          Toggle Dark/Light Theme
+        </button>
+      </header>
+
+      <main>
+        <div id="messages-container" aria-live="polite"></div>
+
+        <section class="balance-section">
+          <h2>Total Balance</h2>
+          <div id="balance-display">Rp0</div>
+        </section>
+
+        <div class="grid-layout">
+          <!-- Input Form -->
+          <section class="form-section">
+            <h2>Add Transaction</h2>
+            <form id="transaction-form">
+              <div class="form-group">
+                <label for="item-name">Item Name</label>
+                <input type="text" id="item-name" name="item-name" required />
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount (Rp)</label>
+                <input
+                  type="number"
+                  id="amount"
+                  name="amount"
+                  step="1"
+                  min="1"
+                  list="amount-suggestions"
+                  required
+                />
+                <datalist id="amount-suggestions">
+                  <option value="1000"></option>
+                  <option value="5000"></option>
+                  <option value="10000"></option>
+                  <option value="20000"></option>
+                  <option value="50000"></option>
+                  <option value="100000"></option>
+                  <option value="500000"></option>
+                  <option value="1000000"></option>
+                </datalist>
+              </div>
+              <div class="form-group">
+                <label for="category-select">Category</label>
+                <select id="category-select" name="category" required>
+                  <!-- Options populated by JS -->
+                </select>
+              </div>
+              <div id="form-errors" class="error-text"></div>
+              <button type="submit" class="btn-primary">Add Expense</button>
+            </form>
+
+            <hr />
+
+            <h3>Custom Categories</h3>
+            <form id="category-form">
+              <div class="form-group">
+                <label for="new-category">New Category Name</label>
+                <input
+                  type="text"
+                  id="new-category"
+                  name="new-category"
+                  maxlength="50"
+                />
+              </div>
+              <div id="category-errors" class="error-text"></div>
+              <button type="submit" class="btn-secondary">Add Category</button>
+            </form>
+          </section>
+
+          <!-- Transaction List -->
+          <section class="list-section">
+            <h2>Transaction History</h2>
+            <div id="transaction-list-container">
+              <ul id="transaction-list"></ul>
+              <div id="transaction-empty" class="empty-state">
+                No transactions available.
+              </div>
+            </div>
+          </section>
+
+          <!-- Chart View -->
+          <section class="chart-section">
+            <h2>Spending by Category</h2>
+            <div id="chart-container">
+              <canvas id="spending-chart" width="300" height="300"></canvas>
+              <div id="chart-legend"></div>
+            </div>
+            <div id="chart-empty" class="empty-state">
+              No spending data available.
+            </div>
+          </section>
+
+          <!-- Summary View -->
+          <section class="summary-section">
+            <h2>Monthly Summary</h2>
+            <div id="summary-list"></div>
+            <div id="summary-empty" class="empty-state">
+              No transactions available.
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>
+        "Jika kamu disiplin, Financial Freedom bukanlah hal yang tidak mungkin"
+      </p>
+    </footer>
+  </body>
+</html>
